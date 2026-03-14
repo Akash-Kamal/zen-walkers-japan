@@ -1,0 +1,104 @@
+Create a modern static single page travel website using React.
+
+Project Title: Discover Japan
+
+Purpose:
+A visually appealing travel landing page that promotes tourism in Japan. The page should highlight Japanese culture, famous destinations, and travel experiences.
+
+Technical Requirements:
+- Use React with functional components
+- Use modern CSS (TailwindCSS preferred)
+- Responsive design for mobile, tablet, and desktop
+- Clean component structure
+- Smooth scrolling navigation
+- No backend required (static site)
+
+Design Style:
+- Minimal and elegant Japanese aesthetic
+- Color palette: white, black, red (#E60023), light gray
+- Use large hero images and card-style sections
+- Soft shadows and rounded cards
+- Use modern fonts like Inter or Poppins
+
+Sections to Include:
+
+1. Navbar
+- Logo: "Discover Japan"
+- Menu items: Home, Destinations, Culture, Food, Travel Tips, Contact
+- Sticky navbar with smooth scroll
+
+2. Hero Section
+- Full screen background image of Mount Fuji and cherry blossoms
+- Heading: "Explore the Beauty of Japan"
+- Subheading: "Tradition, Culture, and Adventure Await"
+- Call to action button: "Start Your Journey"
+
+3. Popular Destinations
+Create cards for:
+- Tokyo
+- Kyoto
+- Osaka
+- Mount Fuji
+- Nara
+
+Each card should include:
+- Image
+- Short description
+- "Learn More" button
+
+4. Japanese Culture Section
+Highlight:
+- Cherry Blossoms (Sakura)
+- Temples & Shrines
+- Samurai Heritage
+- Traditional Festivals
+
+Use icon cards or image cards.
+
+5. Japanese Food Section
+Show popular foods:
+- Sushi
+- Ramen
+- Tempura
+- Matcha desserts
+
+Display in a grid with images and titles.
+
+6. Travel Tips Section
+Include helpful tips such as:
+- Best time to visit
+- Transportation tips
+- Cultural etiquette
+
+Use simple cards or bullet layout.
+
+7. Gallery Section
+Grid gallery of Japan travel photos.
+
+8. Contact / CTA Section
+Text: "Ready to explore Japan?"
+Button: "Plan Your Trip"
+
+9. Footer
+- Social media icons
+- Copyright
+- Links to privacy and terms
+
+Code Structure:
+- App.js
+- components/
+  - Navbar.js
+  - Hero.js
+  - Destinations.js
+  - Culture.js
+  - Food.js
+  - TravelTips.js
+  - Gallery.js
+  - Footer.js
+
+Extra Features:
+- Hover effects on cards
+- Smooth animations
+- Clean reusable components
+
+Generate full working React code.

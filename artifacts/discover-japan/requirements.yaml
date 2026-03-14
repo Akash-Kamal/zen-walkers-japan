@@ -1,0 +1,12 @@
+packages:
+  "framer-motion": "For premium smooth scroll reveals and page transition animations"
+  "clsx": "For conditional class name merging"
+  "tailwind-merge": "For merging tailwind classes safely"
+
+images: []
+
+notes:
+  - "This is a static single-page application. No backend or database is required."
+  - "All data is hardcoded for the presentation."
+  - "Using Framer Motion for elegant scroll reveal animations."
+  - "Implemented smooth scrolling via CSS scroll-behavior."
