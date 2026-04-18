@@ -1,5 +1,6 @@
 {
-  "buildCommand": "PORT=3000 BASE_PATH=/ npm run build",
+  "buildCommand": "pnpm install --no-frozen-lockfile && PORT=3000 BASE_PATH=/ npm run build",
+  "installCommand": "pnpm install --no-frozen-lockfile",
   "outputDirectory": "dist/public",
   "env": {
     "PORT": "3000",
