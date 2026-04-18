@@ -160,6 +160,9 @@ importers:
 
   discover-japan:
     devDependencies:
+      '@emailjs/browser':
+        specifier: ^4.2.0
+        version: 4.2.0
       '@hookform/resolvers':
         specifier: ^3.10.0
         version: 3.10.0(react-hook-form@7.71.2(react@19.1.0))
@@ -444,6 +447,9 @@ packages:
   '@babel/types@7.29.0':
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
+
+  '@emailjs/browser@4.2.0':
+    resolution: {integrity: sha512-Vk1Ry/MfK0eIBxYSJiY9fkn5EbEVvgOGblDxb5fPWl+JW9sJQcBFMkM8Vl6nJe5YI4nVECH71VtJLh2xVQPgCA==}
 
   '@date-fns/tz@1.4.1':
     resolution: {integrity: sha512-P5LUNhtbj6YfI3iJjw5EL9eUAG6OitD0W3fWQcpQjDRc/QIsL0tRNuO1PcDvPccWL1fSTXXdE1ds+l95DV/OFA==}
