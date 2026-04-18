@@ -1,7 +1,7 @@
 [build]
   base = "discover-japan"
   command = "npm run build"
-  publish = "dist/public"
+  publish = "discover-japan/dist/public"
 
 [build.environment]
   BASE_PATH = "/"
