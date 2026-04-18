@@ -1,6 +1,6 @@
 [build]
   base = "discover-japan"
-  command = "npm run build"
+  command = "pnpm install --no-frozen-lockfile && npm run build"
   publish = "discover-japan/dist/public"
 
 [build.environment]
