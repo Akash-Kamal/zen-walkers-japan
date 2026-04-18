@@ -1,0 +1,14 @@
+[build]
+  base = "discover-japan"
+  command = "npm run build"
+  publish = "dist/public"
+
+[build.environment]
+  BASE_PATH = "/"
+  PNPM_FLAGS = "--no-frozen-lockfile"
+  NPM_CONFIG_PRODUCTION = "false"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

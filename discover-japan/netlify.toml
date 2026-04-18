@@ -1,9 +1,11 @@
 [build]
-  command = "pnpm install --no-frozen-lockfile && BASE_PATH=/ npm run build"
+  command = "BASE_PATH=/ npm run build"
   publish = "dist/public"
 
 [build.environment]
   BASE_PATH = "/"
+  PNPM_FLAGS = "--no-frozen-lockfile"
+  NPM_CONFIG_PRODUCTION = "false"
 
 [[redirects]]
   from = "/*"
